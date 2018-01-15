@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-inmemory/src/test/java/com/smartscity/ratelimit/inmemory/concurrent/InMemoryConcurrentSyncRequestRateLimiterTest.java">
+<error line="11" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-inmemory/src/test/java/com/smartscity/ratelimit/inmemory/package-info.java">
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-inmemory/src/test/java/com/smartscity/ratelimit/inmemory/request/RequestLimitRuleTest.java">
+</file>
+</checkstyle>

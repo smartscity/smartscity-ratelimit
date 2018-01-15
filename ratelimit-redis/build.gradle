@@ -1,0 +1,25 @@
+description 'SMARTSCITY RateLimit for Redis'
+
+
+dependencies {
+
+    api(
+            project(':ratelimit-core'),
+            'io.lettuce:lettuce-core:5.0.1.RELEASE'
+    )
+
+    implementation(
+            'com.eclipsesource.minimal-json:minimal-json:0.9.4',
+            libraries.findbugs,
+            libraries.slf4j
+    )
+
+    testImplementation(
+            libraries.assertj,
+            libraries.guava,
+            libraries.mockito,
+            libraries.logback,
+    )
+
+}
+

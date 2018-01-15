@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: de.jkeylockmanager:jkeylockmanager:2.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.jkeylockmanager/jkeylockmanager/2.1.0/4cb000063a01a2b7bd05bc4be8ec201b45a3c3d3/jkeylockmanager-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.jkeylockmanager/jkeylockmanager/2.1.0/618d458358ec6dcc5beba0b80120dd0418e2c1cf/jkeylockmanager-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

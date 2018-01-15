@@ -1,0 +1,22 @@
+
+description 'Smartscity RateLimit Core'
+
+dependencies {
+
+    api(
+            'io.projectreactor:reactor-core:3.1.0.RELEASE',
+    )
+
+    implementation(
+            libraries.slf4j,
+            libraries.findbugs
+    )
+
+    testImplementation(
+            libraries.assertj,
+            libraries.guava
+    )
+
+
+
+}

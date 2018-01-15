@@ -1,0 +1,26 @@
+description 'SMARTSCITY RateLimit In Memory'
+
+project.ext.release = true
+
+dependencies {
+
+    api(
+            project(':ratelimit-core'),
+    )
+
+    implementation(
+            libraries.slf4j,
+            'net.jodah:expiringmap:0.5.8',
+            'de.jkeylockmanager:jkeylockmanager:2.1.0',
+            libraries.findbugs
+    )
+
+    testImplementation(
+            libraries.assertj,
+            libraries.guava,
+            libraries.mockito,
+            libraries.logback,
+    )
+
+}
+

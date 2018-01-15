@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/concurrent/Baton.java">
+<error line="6" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/concurrent/LimitRule.java">
+<error line="6" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="40" column="5" severity="warning" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="69" column="34" severity="warning" message="Parameter name &apos;o&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="77" column="36" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="78" column="53" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/concurrent/RequestLimiter.java">
+<error line="3" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/request/AbstractRequestRateLimiterFactory.java">
+<error line="11" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/request/RequestLimitRule.java">
+<error line="6" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="59" column="34" severity="warning" message="Parameter name &apos;o&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/request/RequestRateLimiter.java">
+<error line="3" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="17" severity="warning" message="&apos;METHOD_DEF 前应有空行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/request/RequestRateLimiterFactory.java">
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/time/SystemTimeSupport.java">
+<error line="19" severity="warning" message="注释应与第21行代码同样缩进4个缩进符，而不是0个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/time/TimeSupport.java">
+<error line="7" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+</checkstyle>
