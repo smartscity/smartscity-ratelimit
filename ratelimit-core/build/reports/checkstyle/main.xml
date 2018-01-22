@@ -27,7 +27,9 @@
 <file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/limiter/request/RequestRateLimiterFactory.java">
 </file>
 <file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/time/SystemTimeSupport.java">
-<error line="19" severity="warning" message="注释应与第21行代码同样缩进4个缩进符，而不是0个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="14" severity="warning" message="注释应与第16行代码同样缩进4个缩进符，而不是0个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/time/TimeBanditSupport.java">
 </file>
 <file name="/Users/apple/git/workspaces/opensource/smartscity-ratelimit/ratelimit-core/src/main/java/com/smartscity/ratelimit/core/time/TimeSupport.java">
 <error line="7" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>

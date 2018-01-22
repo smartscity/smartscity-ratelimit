@@ -21,8 +21,6 @@ import static net.jodah.expiringmap.ExpirationPolicy.ACCESSED;
  * @author apple  lyl2008dsg@163.com
  * @version 1.0
  **/
-
-
 public class InMemoryRequestRateLimiter implements RequestLimiter {
 
     private final ExpiringMap<String, Semaphore> expiringKeyMap;
@@ -30,9 +28,8 @@ public class InMemoryRequestRateLimiter implements RequestLimiter {
 
     public InMemoryRequestRateLimiter( LimitRule rule) {
         this.rule = rule;
-        expiringKeyMap = ExpiringMap.builder().expiration(rule.getTimeoutMillis(), MILLISECONDS).expirationPolicy(ACCESSED).build();
+        expiringKeyMap = ExpiringMap.builder().expiration(rule.getTimeoutMillis(), rule.getTimeUnit()).expirationPolicy(ACCESSED).build();
     }
-
 
     @Override
     public Baton acquire(String key) {

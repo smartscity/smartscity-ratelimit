@@ -1,0 +1,75 @@
+description 'SMARTSCITY RateLimit Example'
+
+project.ext.release = true
+
+ext.dropWizardVersion = '1.2.0'
+
+
+buildscript {
+    ext {
+        springBootVersion = '1.5.9.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+group = 'com.smartscity'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-cache')
+    compile('org.springframework.boot:spring-boot-starter-jersey')
+    compile('org.springframework.retry:spring-retry')
+    compile('org.springframework.boot:spring-boot-starter-security')
+    compile('org.springframework.boot:spring-boot-starter-web')
+
+    compile("io.dropwizard:dropwizard-core:${dropWizardVersion}")
+    compile("io.dropwizard:dropwizard-jersey:${dropWizardVersion}")
+    compile("io.dropwizard:dropwizard-auth:${dropWizardVersion}")
+    compile project(':ratelimit-core')
+    compile project(':ratelimit-wizard')
+    compile project(':ratelimit-inmemory')
+
+
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('org.springframework.security:spring-security-test')
+
+
+//    api(
+//
+//	        project(':ratelimit-redis'),
+//	        project(':ratelimit-wizard'),
+//	        project(':ratelimit-inmemory'),
+//            ,
+//    )
+//    implementation (
+//            ,
+//
+//    )
+//
+//    testImplementation(
+//            'org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:2.25.1',
+//            libraries.assertj,
+//            libraries.guava,
+//            libraries.mockito,
+//            libraries.logback,
+//    )
+
+}

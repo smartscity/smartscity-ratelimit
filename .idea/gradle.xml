@@ -11,8 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ratelimit-core" />
+            <option value="$PROJECT_DIR$/ratelimit-example" />
             <option value="$PROJECT_DIR$/ratelimit-inmemory" />
             <option value="$PROJECT_DIR$/ratelimit-redis" />
+            <option value="$PROJECT_DIR$/ratelimit-wizard" />
           </set>
         </option>
       </GradleProjectSettings>

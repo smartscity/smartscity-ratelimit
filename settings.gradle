@@ -18,6 +18,8 @@ include 'services:webservice'
 include 'ratelimit-core'
 include 'ratelimit-inmemory'
 include 'ratelimit-redis'
+include 'ratelimit-wizard'
+include 'ratelimit-example'
 
 rootProject.name = 'smartscity-ratelimit'
 

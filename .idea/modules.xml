@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ratelimit-core/ratelimit-core.iml" filepath="$PROJECT_DIR$/.idea/modules/ratelimit-core/ratelimit-core.iml" group="ratelimit-core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ratelimit-core/ratelimit-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ratelimit-core/ratelimit-core_main.iml" group="ratelimit-core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ratelimit-core/ratelimit-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ratelimit-core/ratelimit-core_test.iml" group="ratelimit-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ratelimit-example/ratelimit-example.iml" filepath="$PROJECT_DIR$/.idea/modules/ratelimit-example/ratelimit-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ratelimit-inmemory/ratelimit-inmemory.iml" filepath="$PROJECT_DIR$/.idea/modules/ratelimit-inmemory/ratelimit-inmemory.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ratelimit-redis/ratelimit-redis.iml" filepath="$PROJECT_DIR$/.idea/modules/ratelimit-redis/ratelimit-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ratelimit-wizard/ratelimit-wizard.iml" filepath="$PROJECT_DIR$/.idea/modules/ratelimit-wizard/ratelimit-wizard.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartscity-ratelimit.iml" filepath="$PROJECT_DIR$/.idea/modules/smartscity-ratelimit.iml" />
     </modules>
   </component>

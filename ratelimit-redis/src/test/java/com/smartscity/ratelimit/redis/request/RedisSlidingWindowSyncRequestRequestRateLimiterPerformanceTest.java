@@ -28,8 +28,8 @@ import java.util.stream.IntStream;
 
 public class RedisSlidingWindowSyncRequestRequestRateLimiterPerformanceTest  {
 
-    private static RedisClient client;
-    private static StatefulRedisConnection<String, String> connect;
+    private RedisClient client;
+    private StatefulRedisConnection<String, String> connect;
 
     @Before
     public void beforeAll() {

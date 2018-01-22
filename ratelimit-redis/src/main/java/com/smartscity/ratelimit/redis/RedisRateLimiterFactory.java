@@ -20,7 +20,7 @@ import static java.util.Objects.requireNonNull;
  * <B>公司部门：</B>SMARTSCITY Technology<BR>
  * <B>创建时间：</B>2018/1/12 下午3:49<BR>
  *
- * @author apple  lyl2008dsg@163.com
+ * @author liyunlong  lyl2008dsg@163.com
  * @version 1.0
  **/
 

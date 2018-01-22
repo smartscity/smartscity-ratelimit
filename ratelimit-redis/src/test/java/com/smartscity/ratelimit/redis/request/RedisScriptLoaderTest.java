@@ -20,8 +20,8 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 public class RedisScriptLoaderTest {
 
-    private static RedisClient client;
-    private static StatefulRedisConnection<String, String> connection;
+    private RedisClient client;
+    private StatefulRedisConnection<String, String> connection;
 
     @Before
     public  void beforeAll() {

@@ -16,10 +16,10 @@ import java.util.concurrent.TimeUnit;
  **/
 public class LimitRule {
 
-    private final int       limit;
-    private final long      timeoutMillis;
-    private final String    name;
-    private final TimeUnit  timeUnit;
+    private final int       limit;          // 限制数量
+    private final long      timeoutMillis;  //
+    private final String    name;           // 限制名称
+    private final TimeUnit  timeUnit;       // 单位时间
 
     private LimitRule(int limit, long timeout) {
         this(null, limit, timeout);

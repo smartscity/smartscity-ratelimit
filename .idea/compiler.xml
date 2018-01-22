@@ -21,10 +21,14 @@
     <bytecodeTargetLevel>
       <module name="ratelimit-core_main" target="1.8" />
       <module name="ratelimit-core_test" target="1.8" />
+      <module name="ratelimit-example_main" target="1.8" />
+      <module name="ratelimit-example_test" target="1.8" />
       <module name="ratelimit-inmemory_main" target="1.8" />
       <module name="ratelimit-inmemory_test" target="1.8" />
       <module name="ratelimit-redis_main" target="1.8" />
       <module name="ratelimit-redis_test" target="1.8" />
+      <module name="ratelimit-wizard_main" target="1.8" />
+      <module name="ratelimit-wizard_test" target="1.8" />
       <module name="smartscity-ratelimit_main" target="1.8" />
       <module name="smartscity-ratelimit_test" target="1.8" />
     </bytecodeTargetLevel>
